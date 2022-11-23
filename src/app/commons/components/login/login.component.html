@@ -1,0 +1,44 @@
+<link href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css" />
+<link
+	rel="stylesheet"
+	href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css"
+/>
+<div class="page-holder align-items-center py-4 bg-gray-100 vh-100">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 px-lg-4">
+				<div class="card">
+					<div class="card-header px-lg-5">
+						<div class="card-heading text-primary">Login</div>
+					</div>
+					<div class="card-body p-lg-5">
+						<h3 class="mb-4">Centro de planificación de información 🧾</h3>
+						<p class="text-muted text-sm mb-5">
+							Construimos tu sueño, descubre nuestros proyectos inmobiliarios exclusivos.
+						</p>
+						<form id="loginForm" action="index.html">
+							<div class="form-floating mb-3">
+								<input class="form-control" id="floatingInput" type="email" placeholder="name@example.com" required />
+								<label for="floatingInput">Correo electrónico</label>
+							</div>
+							<div class="form-floating mb-3">
+								<input class="form-control" id="floatingPassword" type="password" placeholder="Password" required />
+								<label for="floatingPassword">Contraseña</label>
+							</div>
+							<div class="form-check mb-3">
+								<input class="form-check-input" type="checkbox" name="remember" id="remember" />
+								<label class="form-check-label" for="remember">Recordarme</label>
+							</div>
+							<button class="btn btn-primary" type="button" [routerLink]="['/home-main']">Ingresar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-xl-5 ms-xl-auto px-lg-4 text-center text-primary">
+				<img class="img-fluid mb-4" width="300" src="../../assets/images/login/fondo.png" alt="" />
+				<h1 class="mb-4">Construyendo <br class="d-none d-lg-inline" />grandes momentos.</h1>
+				<p class="lead text-muted">Construimos tu sueño, descubre nuestros proyectos inmobiliarios exclusivos.</p>
+			</div>
+		</div>
+	</div>
+</div>
